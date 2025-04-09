@@ -1,7 +1,5 @@
 #!/bin/bash
 
-cd "$(dirname "$0")"
-
 for letter in {a..z}; do
     mkdir -p "$letter"
 done
